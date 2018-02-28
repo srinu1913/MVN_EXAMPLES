@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+0<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
@@ -9,6 +9,23 @@
   <version>0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Simple Web Chapter Parent Project</name>
+  <scm>
+        <connection>scm:git:https://github.com/srinu1913/MVN_EXAMPLES.git</connection>
+        <developerConnection>scm:git:https://github.com/srinu1913/MVN_EXAMPLES.git</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
+  
+<distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://192.168.1.60:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://192.168.1.60:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement> 
+  
   <modules>
     <module>simple-webapp</module>
   </modules>
