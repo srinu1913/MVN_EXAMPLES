@@ -12,8 +12,8 @@
   <url>http://sonatype.com/book</url>
   
   <scm>
-        <connection>scm:git:https://github.com/srinu1913/mav.git</connection>
-        <developerConnection>scm:git:https://github.com/srinu1913/mav.git</developerConnection>
+        <connection>scm:git:https://github.com/srinu1913/MVN_EXAMPLES.git</connection>
+        <developerConnection>scm:git:https://github.com/srinu1913/MVN_EXAMPLES.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
   
